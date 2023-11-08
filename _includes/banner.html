@@ -1,0 +1,17 @@
+<!-- Banner component -->
+<div id="news-banner">
+    <div class="news-banner-text">
+        <p>
+            {{ page.banner }}
+        </p>
+
+    </div>
+    <!-- close button -->
+    <div class="news-banner-close">
+        <button class="close" aria-label="Close banner" type="button" data-close
+            onclick="document.getElementById('news-banner').style.display='none';">
+            <span aria-hidden="true">
+                <img src="/assets/images/icons/xmark-solid.svg" class="fa-xmark" alt="close icon"></span>
+        </button>
+    </div>
+</div>
